@@ -10,6 +10,7 @@ public class WorkDay {
     private static LocalTime TIME_OPENING = LocalTime.of(8, 00);
     private static LocalTime TIME_CLOSING = LocalTime.of(21,00);
     private static LocalTime CURRENT_TIME = LocalTime.of(8,00);
+    private static LocalTime OPERATING_TIME = TIME_OPENING;
 
     List<AcquisitionUnit> listOfAllDrinks = new ArrayList<>();
     List<AcquisitionUnit> listOfOrderedDrinks = new ArrayList<>();
@@ -17,12 +18,21 @@ public class WorkDay {
     public WorkDay() {
         CurrentStock.readFromFile(listOfAllDrinks);
 
-        if(CURRENT_TIME.isBefore(TIME_CLOSING)){
-            generateActionsForTheNextHour();
+        while(CURRENT_TIME.isBefore(TIME_CLOSING)){
+            generateActionsForAnHour();
         }
+
+
+
+        checkIfTheRefillOfTheStockIsNeeded();
     }
 
-    private void generateOrder() {
+    private void checkIfTheRefillOfTheStockIsNeeded() {
+        //TODO:
+        //Create a functionality for refilling stores stock
+    }
+
+    private void generateOrderForTheNextHour() {
         int number_of_acquisition_a_u = new Random().nextInt(11);
 
         if(number_of_acquisition_a_u != 0){
@@ -50,32 +60,64 @@ public class WorkDay {
     }
 
     private void executeOrder(LocalTime time){
+        System.out.println("Time of the buy: " + time.toString());
+        //TODO:
+        //Implement the mechanics of the extra charge
+
+        //TODO:
+        //Check what must be written into app's console
+
+        //TODO:
+        //Implement end-of-the-day mechanics
+
+        //TODO:
+        //Implement end-of-the-month mechanics
+
+        //TODO:
+        //Implement the rewriting of the stock file
 
         if(listOfOrderedDrinks.isEmpty()){
-            System.out.println();
+            System.out.println("Customer chose nothing<-------------------------------------------------------------");
         }else {
             for(AcquisitionUnit unit : listOfOrderedDrinks){
                 System.out.printf("%-20s", unit.getName());
                 System.out.print(" *** ");
                 System.out.printf("%-5s", Float.toString(unit.getPurchase_price()));
                 System.out.print("\n");
+
+                reduceStock(unit);
             }
             listOfOrderedDrinks.clear();
         }
         System.out.println("------------------------------------------------");
     }
 
-    private void generateActionsForTheNextHour(){
+    private void reduceStock(AcquisitionUnit unit) {
+        for (AcquisitionUnit unit_from_main_list : listOfAllDrinks){
+            if(unit.equals(unit_from_main_list)){
+                unit_from_main_list.setStock(unit_from_main_list.getStock() - 1);
+                break;
+            }
+        }
+    }
+
+    private void generateActionsForAnHour(){
         int number_of_customers_in_next_hour = new Random().nextInt(10) + 1;
-        LocalTime time = LocalTime.now();
 
         for(int i = 0; i < number_of_customers_in_next_hour; i++){
-            generateOrder();
-            executeOrder(time);
+            //TODO:
+            //Fix the minutes
+            int interval = 60 / number_of_customers_in_next_hour;
+            OPERATING_TIME = OPERATING_TIME.plusMinutes(i + new Random().nextInt(interval));
+
+            generateOrderForTheNextHour();
+            executeOrder(OPERATING_TIME);
         }
 
-        CURRENT_TIME.plusHours(1);
+        CURRENT_TIME = CURRENT_TIME.plusHours(1);
+        OPERATING_TIME = CURRENT_TIME;
     }
+
 
     public void printStuff(){
         for(AcquisitionUnit unit : listOfAllDrinks){

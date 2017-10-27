@@ -77,17 +77,13 @@ public class WorkDay {
     }
 
     private void executeOrder(){
-        //TODO:
-        //Check what must be written into app's console
+        //TODO: Check what must be written into app's console
 
-        //TODO:
-        //Implement end-of-the-day mechanics
+        //TODO: Implement end-of-the-day mechanics
 
-        //TODO:
-        //Implement end-of-the-month mechanics
+        //TODO: Implement end-of-the-month mechanics
 
-        //TODO:
-        //Implement the rewriting of the stock file
+        //TODO: Implement the rewriting of the stock file
 
         if(listOfOrderedDrinks.isEmpty()){
             System.out.println("Customer chose nothing<-------------------------------------------------------------------------------------------------------------");

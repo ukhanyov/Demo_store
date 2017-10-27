@@ -1,5 +1,11 @@
 package store;
 
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -7,22 +13,24 @@ import java.util.Random;
 
 public class WorkDay {
 
-    private static LocalTime TIME_OPENING = LocalTime.of(8, 00);
-    private static LocalTime TIME_CLOSING = LocalTime.of(21,00);
     private static LocalTime TIME_DISCOUNT_START = LocalTime.of(18, 00);
     private static LocalTime TIME_DISCOUNT_END = LocalTime.of(20,00);
-    private static LocalTime CURRENT_TIME = LocalTime.of(8,00);
+
+    private LocalTime CURRENT_TIME;
 
     private boolean isWeekend = false;
 
     private float profitOfTheDay = 0;
     private float cleanProfitOfTheDay = 0;
+    private float spendOnRestockThisDay = 0;
 
-    List<AcquisitionUnit> listOfAllDrinks = new ArrayList<>();
+    List<String> logOfTheDailyFile = new ArrayList<>();
+
     List<AcquisitionUnit> listOfOrderedDrinks = new ArrayList<>();
 
-    public WorkDay() {
-        CurrentStock.readFromFile(listOfAllDrinks);
+    public WorkDay(Boolean checkWeekend) throws IOException{
+        this.isWeekend = checkWeekend;
+        CURRENT_TIME = LocalTime.of(8, 00);
 
         for(int i = 0; i < 13; i++){
             generateActionsForAnHour();
@@ -30,23 +38,53 @@ public class WorkDay {
 
         endOfTheDayShenanigans();
         checkIfTheRefillOfTheStockIsNeeded();
+
+        System.out.println("|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||");
+
+        writeDailyReport();
+        writeMonthlyReport();
+    }
+
+    private void writeMonthlyReport() {
+
+    }
+
+    private void writeDailyReport() throws IOException{
+        logOfTheDailyFile.add("Spend on restock this day: " + Float.toString(spendOnRestockThisDay));
+        logOfTheDailyFile.add("LOG INFO: CLean profit: " + Float.toString(LogInfo.CLEAN_PROFIT_FOR_30_DAYS));
+        logOfTheDailyFile.add("LOG INFO: Money spend on restock: " + Float.toString(LogInfo.MONEY_SPEND_ON_RESTOCK));
+        logOfTheDailyFile.add("|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||");
+        Path file = Paths.get("daily_report_inner_use_only.txt");
+        Files.write(file, logOfTheDailyFile, Charset.forName("UTF-8"), StandardOpenOption.APPEND);
+        logOfTheDailyFile.clear();
     }
 
     private void endOfTheDayShenanigans() {
         System.out.println("Profit at the end of the day is: " + Float.toString(profitOfTheDay));
+        logOfTheDailyFile.add("Profit at the end of the day is: " + Float.toString(profitOfTheDay));
+
         System.out.println("Clean profit at the end of the day is: " + Float.toString(cleanProfitOfTheDay));
+        logOfTheDailyFile.add("Clean profit at the end of the day is: " + Float.toString(cleanProfitOfTheDay));
     }
 
     private void checkIfTheRefillOfTheStockIsNeeded() {
 
-        for(AcquisitionUnit unit : listOfAllDrinks){
+        for(AcquisitionUnit unit : LogInfo.LIST_OF_AVAILABLE_DRINKS){
             if(unit.getStock() < 10){
                 unit.setStock(unit.getStock() + 150);
-                cleanProfitOfTheDay = cleanProfitOfTheDay - (unit.getPurchase_price()*150);
-                System.out.println("Bought 150 unit of: " + unit.getName().toString());
+
+                //TODO: Figure out clean profit schema
+                spendOnRestockThisDay += unit.getPurchase_price()*150;
+
+                System.out.println("Bought 150 unit of: " + unit.getName().toString() + " For the price of: " + unit.getPurchase_price());
+                logOfTheDailyFile.add("Bought 150 unit of: " + unit.getName().toString() + " For the price of: " + unit.getPurchase_price());
+
+                LogInfo.MONEY_SPEND_ON_RESTOCK += unit.getPurchase_price() * 150;
             }
         }
         System.out.println("Clean profit of the day after restock: " + Float.toString(cleanProfitOfTheDay));
+
+        LogInfo.CLEAN_PROFIT_FOR_30_DAYS += cleanProfitOfTheDay;
     }
 
     private void generateOrderForTheNextHour() {
@@ -57,18 +95,18 @@ public class WorkDay {
 
                 int chosen_drinks = new Random().nextInt(8);
 
-                if(listOfAllDrinks.get(chosen_drinks).getStock() != 0) {
-                    listOfOrderedDrinks.add(listOfAllDrinks.get(chosen_drinks));
+                if(LogInfo.LIST_OF_AVAILABLE_DRINKS.get(chosen_drinks).getStock() != 0) {
+                    listOfOrderedDrinks.add(LogInfo.LIST_OF_AVAILABLE_DRINKS.get(chosen_drinks));
                 }else {
                     i--;
-                    if(listOfAllDrinks.get(0).getStock() == 0 &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(1).getStock() &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(2).getStock() &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(3).getStock() &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(4).getStock() &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(5).getStock() &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(6).getStock() &&
-                       listOfAllDrinks.get(0).getStock() == listOfAllDrinks.get(7).getStock()){
+                    if(LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == 0 &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(1).getStock() &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(2).getStock() &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(3).getStock() &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(4).getStock() &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(5).getStock() &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(6).getStock() &&
+                            LogInfo.LIST_OF_AVAILABLE_DRINKS.get(0).getStock() == LogInfo.LIST_OF_AVAILABLE_DRINKS.get(7).getStock()){
                         break;
                     }
                 }
@@ -77,8 +115,6 @@ public class WorkDay {
     }
 
     private void executeOrder(){
-        //TODO: Check what must be written into app's console
-
         //TODO: Implement end-of-the-day mechanics
 
         //TODO: Implement end-of-the-month mechanics
@@ -137,7 +173,7 @@ public class WorkDay {
     }
 
     private void reduceStock(AcquisitionUnit unit) {
-        for (AcquisitionUnit unit_from_main_list : listOfAllDrinks){
+        for (AcquisitionUnit unit_from_main_list : LogInfo.LIST_OF_AVAILABLE_DRINKS){
             if(unit.equals(unit_from_main_list)){
                 unit_from_main_list.setStock(unit_from_main_list.getStock() - 1);
                 break;

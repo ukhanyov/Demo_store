@@ -1,6 +1,11 @@
 package store;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LogInfo {
+    public static List<AcquisitionUnit> LIST_OF_AVAILABLE_DRINKS = new ArrayList<>();
+
     public static int AMOUNT_OF_SOLD_Вода_минеральная_Хорошо_vol_0p3 = 0;
     public static int AMOUNT_OF_SOLD_Вода_минеральная_Хорошо_vol_1p5 = 0;
     public static int AMOUNT_OF_SOLD_Пиво_Одесское_Новое = 0;

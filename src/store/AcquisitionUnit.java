@@ -33,6 +33,11 @@ public class AcquisitionUnit {
         return purchase_price;
     }
 
+    public float getPurchase_priceWithExtraCharge(float exCh) {
+        float number = 0;
+        return number = purchase_price + purchase_price*exCh;
+    }
+
     public void setPurchase_price(float purchase_price) {
         this.purchase_price = purchase_price;
     }

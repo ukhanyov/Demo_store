@@ -44,6 +44,8 @@ public class Main {
 
         WorkDay day11111 = new WorkDay(false);
         WorkDay day11112 = new WorkDay(false);
+        day11112.writeMonthlyReport();
+        day11112.writeEndOfTheMonthReport();
 
     }
 }

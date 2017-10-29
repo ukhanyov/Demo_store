@@ -1,5 +1,6 @@
 package store;
 
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
@@ -29,6 +30,8 @@ public class WorkDay {
     List<AcquisitionUnit> listOfOrderedDrinks = new ArrayList<>();
 
     public WorkDay(Boolean checkWeekend) throws IOException{
+
+        //TODO: check profit schemas
         this.isWeekend = checkWeekend;
         CURRENT_TIME = LocalTime.of(8, 00);
 
@@ -41,12 +44,55 @@ public class WorkDay {
 
         System.out.println("|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||");
 
+        LogInfo.DIRTY_PROFIT_FOR_30_DAYS =+ profitOfTheDay;
+
         writeDailyReport();
-        writeMonthlyReport();
+        //writeMonthlyReport();
     }
 
-    private void writeMonthlyReport() {
+    public void writeMonthlyReport() throws IOException{
+        if(LogInfo.LIST_OF_ALL_SOLD_A_U.isEmpty()){
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Вода_минеральная_Хорошо_vol_0p3);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Вода_минеральная_Хорошо_vol_1p5);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Пиво_Одесское_Новое);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Красная_испанка);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Сок_Богач_Грейпфрутовый);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Вода_Енерджи_бум_Плюс);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Мартини_Биссе);
+            LogInfo.LIST_OF_ALL_SOLD_A_U.add(LogInfo.AMOUNT_OF_SOLD_Два_моря);
+        }
 
+        if(LogInfo.LIST_OF_ALL_RESTOCKED_A_U.isEmpty()){
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Вода_минеральная_Хорошо_vol_0p3);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Вода_минеральная_Хорошо_vol_1p5);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Пиво_Одесское_Новое);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Красная_испанка);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Сок_Богач_Грейпфрутовый);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Вода_Енерджи_бум_Плюс);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Мартини_Биссе);
+            LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Два_моря);
+        }
+
+        LogInfo.MONTHLY_REPORT_LIST.add("Dirty profit: " + Float.toString(LogInfo.DIRTY_PROFIT_FOR_30_DAYS));
+        LogInfo.MONTHLY_REPORT_LIST.add("Clean profit: " + Float.toString(LogInfo.CLEAN_PROFIT_FOR_30_DAYS));
+        LogInfo.MONTHLY_REPORT_LIST.add("Money spent on restock: " + Float.toString(LogInfo.MONEY_SPEND_ON_RESTOCK));
+        LogInfo.MONTHLY_REPORT_LIST.add("\n");
+        int counter = 0;
+        for (Integer unit : LogInfo.LIST_OF_ALL_SOLD_A_U){
+            LogInfo.MONTHLY_REPORT_LIST.add("Amount of sold " + LogInfo.LIST_OF_AVAILABLE_DRINKS.get(counter).getName() + " is: " + Integer.toString(unit));
+            counter++;
+        }
+        counter = 0;
+        LogInfo.MONTHLY_REPORT_LIST.add("\n");
+        for (Integer unit : LogInfo.LIST_OF_ALL_RESTOCKED_A_U){
+            LogInfo.MONTHLY_REPORT_LIST.add("Amount of Restocked " + LogInfo.LIST_OF_AVAILABLE_DRINKS.get(counter).getName() + " is: " + Integer.toString(unit));
+            counter++;
+        }
+
+        Path file = Paths.get("monthly_report.txt");
+        Files.write(file, LogInfo.MONTHLY_REPORT_LIST, Charset.forName("UTF-8"));
+
+        //TODO: Refactor this shit, add those LogInfo into a list or smth
     }
 
     private void writeDailyReport() throws IOException{
@@ -80,6 +126,33 @@ public class WorkDay {
                 logOfTheDailyFile.add("Bought 150 unit of: " + unit.getName().toString() + " For the price of: " + unit.getPurchase_price());
 
                 LogInfo.MONEY_SPEND_ON_RESTOCK += unit.getPurchase_price() * 150;
+
+                switch (unit.getName()){
+                    case "Вода_минеральная_Хорошо0p3":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Вода_минеральная_Хорошо_vol_0p3 += 150;
+                        break;
+                    case "Вода_минеральная_Хорошо1p5":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Вода_минеральная_Хорошо_vol_1p5 += 150;
+                        break;
+                    case "Пиво_Одесское_Новое":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Пиво_Одесское_Новое += 150;
+                        break;
+                    case "Красная_испанка":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Красная_испанка += 150;
+                        break;
+                    case "Сок_Богач_Грейпфрутовый":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Сок_Богач_Грейпфрутовый += 150;
+                        break;
+                    case "Енерджи_бум_Плюс":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Вода_Енерджи_бум_Плюс += 150;
+                        break;
+                    case "Мартини_Биссе":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Мартини_Биссе += 150;
+                        break;
+                    case "Два_моря":
+                        LogInfo.AMOUNT_OF_RESTOCKED_Два_моря += 150;
+                        break;
+                }
             }
         }
         System.out.println("Clean profit of the day after restock: " + Float.toString(cleanProfitOfTheDay));
@@ -115,8 +188,6 @@ public class WorkDay {
     }
 
     private void executeOrder(){
-        //TODO: Implement end-of-the-day mechanics
-
         //TODO: Implement end-of-the-month mechanics
 
         //TODO: Implement the rewriting of the stock file
@@ -127,7 +198,7 @@ public class WorkDay {
             int counter = 1; //Amount of drinks in the list of a customer
 
             for(AcquisitionUnit unit : listOfOrderedDrinks){
-                System.out.printf("%-20s", unit.getName());
+                System.out.printf("%-30s", unit.getName());
                 System.out.print(" *** ");
                 System.out.printf("%-5s", Float.toString(unit.getPurchase_price()));
                 System.out.print(" *** ");
@@ -139,6 +210,33 @@ public class WorkDay {
                 profitOfTheDay += unit.getPurchase_price();
                 reduceStock(unit);
                 counter++;
+
+                switch (unit.getName()){
+                    case "Вода_минеральная_Хорошо0p3":
+                        LogInfo.AMOUNT_OF_SOLD_Вода_минеральная_Хорошо_vol_0p3++;
+                        break;
+                    case "Вода_минеральная_Хорошо1p5":
+                        LogInfo.AMOUNT_OF_SOLD_Вода_минеральная_Хорошо_vol_1p5++;
+                        break;
+                    case "Пиво_Одесское_Новое":
+                        LogInfo.AMOUNT_OF_SOLD_Пиво_Одесское_Новое++;
+                        break;
+                    case "Красная_испанка":
+                        LogInfo.AMOUNT_OF_SOLD_Красная_испанка++;
+                        break;
+                    case "Сок_Богач_Грейпфрутовый":
+                        LogInfo.AMOUNT_OF_SOLD_Сок_Богач_Грейпфрутовый++;
+                        break;
+                    case "Енерджи_бум_Плюс":
+                        LogInfo.AMOUNT_OF_SOLD_Вода_Енерджи_бум_Плюс++;
+                        break;
+                    case "Мартини_Биссе":
+                        LogInfo.AMOUNT_OF_SOLD_Мартини_Биссе++;
+                        break;
+                    case "Два_моря":
+                        LogInfo.AMOUNT_OF_SOLD_Два_моря++;
+                        break;
+                }
             }
             listOfOrderedDrinks.clear();
             counter = 1;
@@ -195,6 +293,33 @@ public class WorkDay {
         }
 
         CURRENT_TIME = CURRENT_TIME.plusHours(1);
+    }
+
+    public void writeEndOfTheMonthReport() throws IOException{
+        FileWriter fileWriter = new FileWriter("stock.csv");
+
+        fileWriter.append("name,purchase_price,classification,volume,beverage_strength,composition,stock");
+        fileWriter.append("\n");
+
+        for (AcquisitionUnit unit : LogInfo.LIST_OF_AVAILABLE_DRINKS){
+            fileWriter.append(unit.getName());
+            fileWriter.append(",");
+            fileWriter.append(String.valueOf(unit.getPurchase_price()));
+            fileWriter.append(",");
+            fileWriter.append(unit.getClassification());
+            fileWriter.append(",");
+            fileWriter.append(String.valueOf(unit.getVolume()));
+            fileWriter.append(",");
+            fileWriter.append(unit.getBeverage_strength());
+            fileWriter.append(",");
+            fileWriter.append(unit.getComposition());
+            fileWriter.append(",");
+            fileWriter.append(String.valueOf(unit.getStock()));
+            fileWriter.append("\n");
+        }
+
+        fileWriter.flush();
+        fileWriter.close();
     }
 
 }

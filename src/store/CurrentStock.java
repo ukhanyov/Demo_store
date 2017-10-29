@@ -33,7 +33,8 @@ public class CurrentStock {
             while ((line = fileReader.readLine()) != null) {
                 String[] tokens = line.split(COMMA_DELIMITER);
                 if (tokens.length > 0) {
-                    AcquisitionUnit AU = new AcquisitionUnit(tokens[AU_NAME],
+                    AcquisitionUnit AU = new AcquisitionUnit(
+                                                             tokens[AU_NAME].trim(),
                                                              Float.parseFloat(tokens[AU_PURCHASE_PRICE]),
                                                              tokens[AU_CLASSIFICATION].trim(),
                                                              Float.parseFloat(tokens[AU_VOLUME]),

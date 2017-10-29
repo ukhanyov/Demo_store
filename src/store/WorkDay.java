@@ -30,8 +30,6 @@ public class WorkDay {
     List<AcquisitionUnit> listOfOrderedDrinks = new ArrayList<>();
 
     public WorkDay(Boolean checkWeekend) throws IOException{
-
-        //TODO: check profit schemas
         this.isWeekend = checkWeekend;
         CURRENT_TIME = LocalTime.of(8, 00);
 
@@ -91,8 +89,6 @@ public class WorkDay {
 
         Path file = Paths.get("monthly_report.txt");
         Files.write(file, LogInfo.MONTHLY_REPORT_LIST, Charset.forName("UTF-8"));
-
-        //TODO: Refactor this shit, add those LogInfo into a list or smth
     }
 
     private void writeDailyReport() throws IOException{
@@ -106,9 +102,6 @@ public class WorkDay {
     }
 
     private void endOfTheDayShenanigans() {
-        System.out.println("Profit at the end of the day is: " + Float.toString(profitOfTheDay));
-        logOfTheDailyFile.add("Profit at the end of the day is: " + Float.toString(profitOfTheDay));
-
         System.out.println("Clean profit at the end of the day is: " + Float.toString(cleanProfitOfTheDay));
         logOfTheDailyFile.add("Clean profit at the end of the day is: " + Float.toString(cleanProfitOfTheDay));
     }
@@ -155,7 +148,6 @@ public class WorkDay {
                 }
             }
         }
-        System.out.println("Clean profit of the day after restock: " + Float.toString(cleanProfitOfTheDay));
 
         LogInfo.CLEAN_PROFIT_FOR_30_DAYS += cleanProfitOfTheDay;
     }
@@ -188,10 +180,6 @@ public class WorkDay {
     }
 
     private void executeOrder(){
-        //TODO: Implement end-of-the-month mechanics
-
-        //TODO: Implement the rewriting of the stock file
-
         if(listOfOrderedDrinks.isEmpty()){
             System.out.println("Customer chose nothing<-------------------------------------------------------------------------------------------------------------");
         }else {
@@ -208,6 +196,8 @@ public class WorkDay {
                 System.out.print("\n");
 
                 profitOfTheDay += unit.getPurchase_price();
+                LogInfo.DIRTY_PROFIT_FOR_30_DAYS += profitOfTheDay;
+
                 reduceStock(unit);
                 counter++;
 
@@ -268,6 +258,7 @@ public class WorkDay {
             }
             }
         }
+        LogInfo.DIRTY_PROFIT_FOR_30_DAYS += cleanProfitOfTheDay;
     }
 
     private void reduceStock(AcquisitionUnit unit) {

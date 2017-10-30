@@ -1,439 +1,221 @@
-Clean profit at the end of the day is: 2499.6914
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Spend on restock this day: 1498.5
-LOG INFO: CLean profit: 2499.6914
-LOG INFO: Money spend on restock: 1498.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2451.9048
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 65943.0
-LOG INFO: CLean profit: 4951.596
-LOG INFO: Money spend on restock: 67441.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2135.2317
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 18786.0
-LOG INFO: CLean profit: 7086.828
-LOG INFO: Money spend on restock: 86227.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1991.9994
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 30750.0
-LOG INFO: CLean profit: 9078.827
-LOG INFO: Money spend on restock: 116977.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2671.3718
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 35193.0
-LOG INFO: CLean profit: 11750.199
-LOG INFO: Money spend on restock: 152170.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2801.9307
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 18786.0
-LOG INFO: CLean profit: 14552.13
-LOG INFO: Money spend on restock: 170956.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1936.9896
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 30750.0
-LOG INFO: CLean profit: 16489.12
-LOG INFO: Money spend on restock: 201706.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2021.3564
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 35193.0
-LOG INFO: CLean profit: 18510.477
-LOG INFO: Money spend on restock: 236899.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1493.2228
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 20003.7
-LOG INFO: Money spend on restock: 236899.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1669.8484
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 18786.0
-LOG INFO: CLean profit: 21673.547
-LOG INFO: Money spend on restock: 255685.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1485.073
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 30750.0
-LOG INFO: CLean profit: 23158.62
-LOG INFO: Money spend on restock: 286435.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1994.0292
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 35193.0
-LOG INFO: CLean profit: 25152.648
-LOG INFO: Money spend on restock: 321628.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2399.8623
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 5287.5
-LOG INFO: CLean profit: 27552.512
-LOG INFO: Money spend on restock: 326916.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2195.2844
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Spend on restock this day: 13498.5
-LOG INFO: CLean profit: 29747.797
-LOG INFO: Money spend on restock: 340414.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2117.3447
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 65943.0
-LOG INFO: CLean profit: 31865.14
-LOG INFO: Money spend on restock: 406357.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2184.153
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 34049.293
-LOG INFO: Money spend on restock: 406357.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2385.5854
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 37536.0
-LOG INFO: CLean profit: 36434.88
-LOG INFO: Money spend on restock: 443893.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2565.8254
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 47193.0
-LOG INFO: CLean profit: 39000.703
-LOG INFO: Money spend on restock: 491086.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1902.1268
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 40902.83
-LOG INFO: Money spend on restock: 491086.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1965.6437
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 32737.5
-LOG INFO: CLean profit: 42868.473
-LOG INFO: Money spend on restock: 523824.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 3091.9553
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 46048.5
-LOG INFO: CLean profit: 45960.43
-LOG INFO: Money spend on restock: 569872.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2128.428
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Spend on restock this day: 5943.0
-LOG INFO: CLean profit: 48088.86
-LOG INFO: Money spend on restock: 575815.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1907.7286
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 32737.5
-LOG INFO: CLean profit: 49996.59
-LOG INFO: Money spend on restock: 608553.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1873.8038
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Spend on restock this day: 12000.0
-LOG INFO: CLean profit: 51870.395
-LOG INFO: Money spend on restock: 620553.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1629.456
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 39991.5
-LOG INFO: CLean profit: 53499.85
-LOG INFO: Money spend on restock: 660544.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1759.07
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 55258.92
-LOG INFO: Money spend on restock: 660544.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2800.1208
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 32737.5
-LOG INFO: CLean profit: 58059.043
-LOG INFO: Money spend on restock: 693282.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2975.608
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 51991.5
-LOG INFO: CLean profit: 61034.652
-LOG INFO: Money spend on restock: 745273.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2044.2655
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 32737.5
-LOG INFO: CLean profit: 63078.918
-LOG INFO: Money spend on restock: 778011.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1769.141
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 64848.06
-LOG INFO: Money spend on restock: 778011.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2216.3723
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 16798.5
-LOG INFO: CLean profit: 2216.3723
-LOG INFO: Money spend on restock: 16798.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2414.9802
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 67930.5
-LOG INFO: CLean profit: 4631.3525
-LOG INFO: Money spend on restock: 84729.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1844.914
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 6476.2666
-LOG INFO: Money spend on restock: 84729.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2064.713
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 16798.5
-LOG INFO: CLean profit: 8540.9795
-LOG INFO: Money spend on restock: 101527.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1833.8927
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 32737.5
-LOG INFO: CLean profit: 10374.872
-LOG INFO: Money spend on restock: 134265.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1442.7283
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 35193.0
-LOG INFO: CLean profit: 11817.601
-LOG INFO: Money spend on restock: 169458.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2274.6025
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 14092.203
-LOG INFO: Money spend on restock: 169458.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2015.2283
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 16798.5
-LOG INFO: CLean profit: 16107.432
-LOG INFO: Money spend on restock: 186256.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1886.8931
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Spend on restock this day: 38680.5
-LOG INFO: CLean profit: 17994.324
-LOG INFO: Money spend on restock: 224937.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1139.263
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 29250.0
-LOG INFO: CLean profit: 19133.588
-LOG INFO: Money spend on restock: 254187.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1967.5746
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 3300.0
-LOG INFO: CLean profit: 21101.162
-LOG INFO: Money spend on restock: 257487.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2276.3843
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Spend on restock this day: 17121.0
-LOG INFO: CLean profit: 23377.547
-LOG INFO: Money spend on restock: 274608.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1682.8796
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 64308.0
-LOG INFO: CLean profit: 25060.426
-LOG INFO: Money spend on restock: 338916.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 3073.4148
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 28133.84
-LOG INFO: Money spend on restock: 338916.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2023.5209
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 15300.0
-LOG INFO: CLean profit: 30157.361
-LOG INFO: Money spend on restock: 354216.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1728.3435
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 67441.5
-LOG INFO: CLean profit: 31885.705
-LOG INFO: Money spend on restock: 421657.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2147.995
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Spend on restock this day: 1987.5
-LOG INFO: CLean profit: 34033.7
-LOG INFO: Money spend on restock: 423645.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2056.2163
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 36089.914
-LOG INFO: Money spend on restock: 423645.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1308.6471
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 15300.0
-LOG INFO: CLean profit: 37398.562
-LOG INFO: Money spend on restock: 438945.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2121.969
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 69429.0
-LOG INFO: CLean profit: 39520.53
-LOG INFO: Money spend on restock: 508374.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2145.5107
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 41666.043
-LOG INFO: Money spend on restock: 508374.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2476.2612
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 15300.0
-LOG INFO: CLean profit: 44142.305
-LOG INFO: Money spend on restock: 523674.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2505.1558
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 67930.5
-LOG INFO: CLean profit: 46647.46
-LOG INFO: Money spend on restock: 591604.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1339.2761
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Spend on restock this day: 1498.5
-LOG INFO: CLean profit: 47986.74
-LOG INFO: Money spend on restock: 593103.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2252.088
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Spend on restock this day: 15300.0
-LOG INFO: CLean profit: 50238.83
-LOG INFO: Money spend on restock: 608403.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2134.508
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Spend on restock this day: 1987.5
-LOG INFO: CLean profit: 52373.336
-LOG INFO: Money spend on restock: 610390.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2057.515
-Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
-Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
-Bought 150 unit of: Красная_испанка For the price of: 80.0
-Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
-Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
-Bought 150 unit of: Мартини_Биссе For the price of: 205.0
-Bought 150 unit of: Два_моря For the price of: 195.0
-Spend on restock this day: 82741.5
-LOG INFO: CLean profit: 54430.85
-LOG INFO: Money spend on restock: 693132.0
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 2212.9517
-Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
-Spend on restock this day: 1987.5
-LOG INFO: CLean profit: 56643.805
-LOG INFO: Money spend on restock: 695119.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1616.7068
-Spend on restock this day: 0.0
-LOG INFO: CLean profit: 58260.51
-LOG INFO: Money spend on restock: 695119.5
-|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
-Clean profit at the end of the day is: 1661.5983
+Clean profit at the end of the day is: 2071.8628
 Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
 Spend on restock this day: 2320.5
-LOG INFO: CLean profit: 59922.11
-LOG INFO: Money spend on restock: 697440.0
+LOG INFO: CLean profit: 2071.8628
+LOG INFO: Money spend on restock: 2320.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2153.7134
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Spend on restock this day: 10408.5
+LOG INFO: CLean profit: 4225.576
+LOG INFO: Money spend on restock: 12729.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2171.4744
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 72000.0
+LOG INFO: CLean profit: 6397.051
+LOG INFO: Money spend on restock: 84729.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2318.9424
+Spend on restock this day: 0.0
+LOG INFO: CLean profit: 8715.993
+LOG INFO: Money spend on restock: 84729.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1999.0284
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Spend on restock this day: 12729.0
+LOG INFO: CLean profit: 10715.021
+LOG INFO: Money spend on restock: 97458.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2184.151
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Spend on restock this day: 30750.0
+LOG INFO: CLean profit: 12899.172
+LOG INFO: Money spend on restock: 128208.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1845.7661
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 41250.0
+LOG INFO: CLean profit: 14744.9375
+LOG INFO: Money spend on restock: 169458.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2168.186
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Spend on restock this day: 2320.5
+LOG INFO: CLean profit: 16913.123
+LOG INFO: Money spend on restock: 171778.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2582.9648
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Spend on restock this day: 41158.5
+LOG INFO: CLean profit: 19496.088
+LOG INFO: Money spend on restock: 212937.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1851.5818
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 41250.0
+LOG INFO: CLean profit: 21347.67
+LOG INFO: Money spend on restock: 254187.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2365.523
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Spend on restock this day: 2320.5
+LOG INFO: CLean profit: 23713.193
+LOG INFO: Money spend on restock: 256507.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1331.0858
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Spend on restock this day: 1498.5
+LOG INFO: CLean profit: 25044.28
+LOG INFO: Money spend on restock: 258006.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2068.9507
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Spend on restock this day: 51660.0
+LOG INFO: CLean profit: 27113.23
+LOG INFO: Money spend on restock: 309666.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1860.0125
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 29250.0
+LOG INFO: CLean profit: 28973.242
+LOG INFO: Money spend on restock: 338916.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2880.1887
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Spend on restock this day: 5620.5
+LOG INFO: CLean profit: 31853.432
+LOG INFO: Money spend on restock: 344536.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1436.3291
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Spend on restock this day: 44248.5
+LOG INFO: CLean profit: 33289.76
+LOG INFO: Money spend on restock: 388785.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2164.8982
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 34860.0
+LOG INFO: CLean profit: 35454.66
+LOG INFO: Money spend on restock: 423645.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1662.1398
+Spend on restock this day: 0.0
+LOG INFO: CLean profit: 37116.8
+LOG INFO: Money spend on restock: 423645.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1997.9645
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Spend on restock this day: 7119.0
+LOG INFO: CLean profit: 39114.766
+LOG INFO: Money spend on restock: 430764.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2272.4954
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 73987.5
+LOG INFO: CLean profit: 41387.26
+LOG INFO: Money spend on restock: 504751.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2709.3137
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Spend on restock this day: 3622.5
+LOG INFO: CLean profit: 44096.574
+LOG INFO: Money spend on restock: 508374.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2462.3525
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Spend on restock this day: 7119.0
+LOG INFO: CLean profit: 46558.926
+LOG INFO: Money spend on restock: 515493.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1901.8525
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 73987.5
+LOG INFO: CLean profit: 48460.777
+LOG INFO: Money spend on restock: 589480.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1908.4196
+Spend on restock this day: 0.0
+LOG INFO: CLean profit: 50369.195
+LOG INFO: Money spend on restock: 589480.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2947.002
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Spend on restock this day: 7441.5
+LOG INFO: CLean profit: 53316.195
+LOG INFO: Money spend on restock: 596922.0
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 1419.1969
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 46537.5
+LOG INFO: CLean profit: 54735.39
+LOG INFO: Money spend on restock: 643459.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2384.051
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Spend on restock this day: 30750.0
+LOG INFO: CLean profit: 57119.44
+LOG INFO: Money spend on restock: 674209.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2563.742
+Spend on restock this day: 0.0
+LOG INFO: CLean profit: 59683.184
+LOG INFO: Money spend on restock: 674209.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2994.0889
+Bought 150 unit of: Вода_минеральная_Хорошо0p3 For the price of: 9.99
+Bought 150 unit of: Вода_минеральная_Хорошо1p5 For the price of: 15.47
+Bought 150 unit of: Пиво_Одесское_Новое For the price of: 13.25
+Bought 150 unit of: Красная_испанка For the price of: 80.0
+Bought 150 unit of: Сок_Богач_Грейпфрутовый For the price of: 22.0
+Bought 150 unit of: Енерджи_бум_Плюс For the price of: 24.15
+Bought 150 unit of: Мартини_Биссе For the price of: 205.0
+Bought 150 unit of: Два_моря For the price of: 195.0
+Spend on restock this day: 84729.0
+LOG INFO: CLean profit: 62677.273
+LOG INFO: Money spend on restock: 758938.5
+|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||
+Clean profit at the end of the day is: 2546.9263
+Spend on restock this day: 0.0
+LOG INFO: CLean profit: 65224.2
+LOG INFO: Money spend on restock: 758938.5
 |||||||||||||||||||||||     End of the day     |||||||||||||||||||||||

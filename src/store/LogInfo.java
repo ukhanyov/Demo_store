@@ -29,7 +29,6 @@ public class LogInfo {
     public static int AMOUNT_OF_RESTOCKED_Мартини_Биссе = 0;
     public static int AMOUNT_OF_RESTOCKED_Два_моря= 0;
 
-    public static float DIRTY_PROFIT_FOR_30_DAYS = 0;
     public static float CLEAN_PROFIT_FOR_30_DAYS = 0;
     public static float MONEY_SPEND_ON_RESTOCK = 0;
 

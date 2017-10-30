@@ -42,8 +42,6 @@ public class WorkDay {
 
         System.out.println("|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||");
 
-        LogInfo.DIRTY_PROFIT_FOR_30_DAYS =+ profitOfTheDay;
-
         writeDailyReport();
         //writeMonthlyReport();
     }
@@ -71,7 +69,6 @@ public class WorkDay {
             LogInfo.LIST_OF_ALL_RESTOCKED_A_U.add(LogInfo.AMOUNT_OF_RESTOCKED_Два_моря);
         }
 
-        LogInfo.MONTHLY_REPORT_LIST.add("Dirty profit: " + Float.toString(LogInfo.DIRTY_PROFIT_FOR_30_DAYS));
         LogInfo.MONTHLY_REPORT_LIST.add("Clean profit: " + Float.toString(LogInfo.CLEAN_PROFIT_FOR_30_DAYS));
         LogInfo.MONTHLY_REPORT_LIST.add("Money spent on restock: " + Float.toString(LogInfo.MONEY_SPEND_ON_RESTOCK));
         LogInfo.MONTHLY_REPORT_LIST.add("\n");
@@ -196,7 +193,6 @@ public class WorkDay {
                 System.out.print("\n");
 
                 profitOfTheDay += unit.getPurchase_price();
-                LogInfo.DIRTY_PROFIT_FOR_30_DAYS += profitOfTheDay;
 
                 reduceStock(unit);
                 counter++;
@@ -258,7 +254,6 @@ public class WorkDay {
             }
             }
         }
-        LogInfo.DIRTY_PROFIT_FOR_30_DAYS += cleanProfitOfTheDay;
     }
 
     private void reduceStock(AcquisitionUnit unit) {

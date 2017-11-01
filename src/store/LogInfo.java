@@ -41,4 +41,5 @@ public class LogInfo {
     public static String STR_LINE_SEPARATOR = "////////////////////////////////////////////////////////////////////////////////////////////////";
     public static String STR_CUSTOMER_CHOSE_NOTHING = "Customer chose nothing<-------------------------------------------------------------------------------------------------------------";
     public static String STR_END_OF_THE_DAY = "|||||||||||||||||||||||     End of the day     |||||||||||||||||||||||";
+    public static String STR_END_OF_THE_WEEKEND_DAY = "|||||||||||||||||||||||     End of the weekend day     |||||||||||||||||||||||";
 }

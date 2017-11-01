@@ -1,22 +1,22 @@
-Clean profit: 62288.46
-Money spent on restock: 704196.0
+Clean profit: 63488.086
+Money spent on restock: 784174.5
 
 
-Amount of sold Вода_минеральная_Хорошо0p3 is: 1357
-Amount of sold Вода_минеральная_Хорошо1p5 is: 1313
-Amount of sold Пиво_Одесское_Новое is: 1311
-Amount of sold Красная_испанка is: 1372
-Amount of sold Сок_Богач_Грейпфрутовый is: 1305
-Amount of sold Енерджи_бум_Плюс is: 1434
-Amount of sold Мартини_Биссе is: 1317
-Amount of sold Два_моря is: 1296
+Amount of sold Вода_минеральная_Хорошо is: 0
+Amount of sold Вода_минеральная_Хорошо is: 0
+Amount of sold Пиво_Одесское_Новое is: 1408
+Amount of sold Красная_испанка is: 1418
+Amount of sold Сок_Богач_Грейпфрутовый is: 1349
+Amount of sold Енерджи_бум_Плюс is: 1367
+Amount of sold Мартини_Биссе is: 1360
+Amount of sold Два_моря is: 1299
 
 
-Amount of Restocked Вода_минеральная_Хорошо0p3 is: 1350
-Amount of Restocked Вода_минеральная_Хорошо1p5 is: 1350
-Amount of Restocked Пиво_Одесское_Новое is: 1200
+Amount of Restocked Вода_минеральная_Хорошо is: 0
+Amount of Restocked Вода_минеральная_Хорошо is: 0
+Amount of Restocked Пиво_Одесское_Новое is: 1350
 Amount of Restocked Красная_испанка is: 1350
 Amount of Restocked Сок_Богач_Грейпфрутовый is: 1350
-Amount of Restocked Енерджи_бум_Плюс is: 1500
-Amount of Restocked Мартини_Биссе is: 1200
-Amount of Restocked Два_моря is: 1200
+Amount of Restocked Енерджи_бум_Плюс is: 1350
+Amount of Restocked Мартини_Биссе is: 1500
+Amount of Restocked Два_моря is: 1350

@@ -37,7 +37,6 @@ public class WorkDay {
         for(int i = 0; i < CLOSING_TIME.getHour() - OPENING_TIME.getHour(); i++){
 
             generateActionsForAnHour();
-
         }
 
         checkIfTheRefillOfTheStockIsNeeded();
@@ -227,7 +226,11 @@ public class WorkDay {
         logOfTheDailyFile.add("LOG INFO: Clean profit overall: " + Float.toString(CLEAN_PROFIT_FOR_30_DAYS));
         logOfTheDailyFile.add("Spend on restock this day: " + Float.toString(spendOnRestockThisDay));
         logOfTheDailyFile.add("LOG INFO: Money spend on restock: " + Float.toString(MONEY_SPEND_ON_RESTOCK));
-        logOfTheDailyFile.add(STR_END_OF_THE_DAY);
+        if(isWeekend){
+            logOfTheDailyFile.add(STR_END_OF_THE_WEEKEND_DAY);
+        }else {
+            logOfTheDailyFile.add(STR_END_OF_THE_DAY);
+        }
 
         Path file = Paths.get("daily_report_inner_use_only.txt");
         Files.write(file, logOfTheDailyFile, Charset.forName("UTF-8"), StandardOpenOption.APPEND);

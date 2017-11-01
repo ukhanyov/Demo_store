@@ -1,52 +1,60 @@
 # Demo_store
 Starting the initial setup
-●     В начале работы программа загружает существующий CSV файл для получения информации об ассортименте и текущем наличии товаров.
 
-●     Каждый час в магазин приходит от 1 до 10 покупателей, которые приобретают от 0 до 10 единиц случайных товаров. Цена продажи товаров формируется в соответствии с описанными выше правилами наценки стоимости. Информация о каждой продаже выводится в консоль в процессе работы программы (что продано, цена продажи каждой единицы, какие правила наценки применены).
+At the start app loads data from pre created CSV file. Data contains current stock of the drinks in the shop.
 
-●     По окончании рабочего дня производится дозакупка недостающего товара.
+Rules of the attending the shop:
+  * Every hour shop is visited by the customers in numbers from 1 to 10.
+  * Every customer can choose from 0 to 10 drinks, which are currently in the stock.
+ 
+Console output contains information about customer activities:
+  * Time period of customers attendance.
+  * Name of the sold drink.
+  * Price of the sold drink.
+  * Which rule of extra charging was applied.
 
-●     После эмуляции 30 дней программа сохраняет в текстовый файл отчет, который содержит информацию:
-○     Количество проданного товара для каждой позиции;
-○     Количество дозакупленного товара для каждой позиции;
-○     Прибыль магазина от продаж (сумма продаж минус себестоимость проданного товара);
-○     Затраченные средства на дозакупку товара.
+By the end of the work, day store's stock in checked, in case if resupply is needed. Rules:
+  * If overall amount of a checked drink in the stock is less then 10, then 150 unit of this drink is bought to refill the stock.
 
-●     По окончании работы программы CSV файл перезаписывается (обновляется информация о наличии товара на конец работы программы).
+After the 30 days of activity emulation the app save a report to the text file, which contains: 
+  * Amount of sold drinks (for each).
+  * Amount of restocked drinks (for each).
+  * Clean profit of the shop (sales summ minus default price of the drink (summ of extra charge, basically)).
+  * Money spent on restocking.
 
-Goods:
--Alcohol
--Alcohol_free
-
-Alcohol:
--название - name
--закупочная цена - purchase price
--классификация  - classification (вино, крепкий алкоголь, пиво, ликеры)
--объем - volume
--крепкость напитка - beverage strength
--наличие шт. - stock
-
-Alcohol_free:
--название - name
--закупочная цена - purchase price
--группа - group (минеральные воды, соки, прочие напитки)
--объем - volume
--состав - composition
--наличие шт. - stock
-
-Available stock is in the CSV file (aka data base)
+By the end of app's lifecycle, CSV file (database) must be rewritten (refresh shop's stock).
 
 Rules of the trade:
-- Стандартная наценка составляет 10% от закупочной цены - Standard extra charge is 10%
-- В выходные дни наценка составляет 15% от закупочной цены - Weekend extra charge is 15%
-- В период с 18:00 до 20:00 наценка составляет 8% от закупочной цены (выходные и будние дни) - From 18:00 to 20:00 extra charge is 8%
-- При продаже от двух единиц товара за раз наценка на следующие единицы товара снижается до 7% от закупочной цены - After 2 consecutive acquisitions of the goods, extra charge for the next one's is 7%
-
+  * Default extra charge is 10%
+  * Weekend extra charge is 15%
+  * From 18:00 to 20:00 extra charge is 8%
+  * After 2 consecutive acquisitions of the goods, extra charge for the next one's is 7%
+-
 Working hours 08:00 - 21:00. Weekly
+-
+Drinks:
+  * Alcohol
+  * Alcohol_free
 
-В конце каждого дня производится дозакупка товара в размере 150 шт. для каждой позиции, наличие которой составляет меньше 10 шт.
+Alcohol:
+  * name
+  * purchase price
+  * classification (вино, крепкий алкоголь, пиво, ликеры)
+  * volume
+  * beverage strength
+  * stock
 
-Необходимо написать программу, которая будет эмулировать работу данного магазина и после эмуляции работы одного месяца (30 дней) подготовит отчет о прибыли:
+Alcohol_free:
+  * name
+  * purchase price
+  * group (минеральные воды, соки, прочие напитки)
+  * volume
+  * composition
+  * stock
+
+Available stock is in the CSV file (aka data base).
+
+Info of CSV file:
 
 "Вода минеральная Хорошо", 9.99, "минеральные воды", 0.3, "вода минеральная, лечебно-столовая", 570
 "Вода минеральная Хорошо", 15.47, "минеральные воды", 1.5, "вода минеральная, лечебно-столовая", 412
